@@ -1,1 +1,13 @@
 /Solution/.vs
+/Solution/UMS.BLL.Shared/obj
+/Solution/UMS.ConsoleApplication/bin
+/Solution/UMS.ConsoleApplication/obj
+/Solution/UMS.DAL.Shared/bin
+/Solution/UMS.DAL.Shared/obj
+/Solution/UMS.DAL/bin
+/Solution/UMS.DAL/obj
+/Solution/UMS.Models.Shared/bin
+/Solution/UMS.Models.Shared/obj
+/Solution/UMS.Models/bin
+/Solution/UMS.Models/obj
+/Solution/UMS.BLL.Shared/bin
