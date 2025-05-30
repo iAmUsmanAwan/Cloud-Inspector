@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\UMS.Models\UMS.Models.csproj" />
+  </ItemGroup>
+
 </Project>
