@@ -1,20 +1,35 @@
 ﻿using UMS.Models;
 using UMS.DAL.Shared;
 using System.Collections.Generic;
+using Microsoft.EntityFrameworkCore;
+using System;
 
 namespace UMS.DAL
 {
-    public class UserRepository : IUserRepository
+    public class UserRepository : Repository<User>, IUserRepository
     {
-        private static List<User> _users = new();
-
-        public List<User> GetAll() => _users;
-
-        public bool Add(User user)
+        public UserRepository(AppDbContext context) : base(context)
         {
-            user.Id = _users.Count + 1;
-            _users.Add(user);
-            return true;
+        }
+
+        public async Task<User> GetByUsernameAsync(string username)
+        {
+            return await _dbSet.FirstOrDefaultAsync(u => u.Username == username);
+        }
+
+        public async Task<User> GetByEmailAsync(string email)
+        {
+            return await _dbSet.FirstOrDefaultAsync(u => u.Email == email);
+        }
+
+        public async Task<bool> IsUsernameUniqueAsync(string username)
+        {
+            return await _dbSet.AllAsync(u => u.Username != username);
+        }
+
+        public async Task<bool> IsEmailUniqueAsync(string email)
+        {
+            return await _dbSet.AllAsync(u => u.Email != email);
         }
     }
 }

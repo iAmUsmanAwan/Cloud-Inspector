@@ -7,9 +7,11 @@ using UMS.Models;
 
 namespace UMS.DAL.Shared
 {
-    public interface IUserRepository
+    public interface IUserRepository : IRepository<User>
     {
-        List<User> GetAll();
-        bool Add(User user);
+        Task<User> GetByUsernameAsync(string username);
+        Task<User> GetByEmailAsync(string email);
+        Task<bool> IsUsernameUniqueAsync(string username);
+        Task<bool> IsEmailUniqueAsync(string email);
     }
 }

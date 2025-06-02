@@ -14,7 +14,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\UMS.BLL.Shared\UMS.BLL.Shared.csproj" />
     <ProjectReference Include="..\UMS.DAL.Shared\UMS.DAL.Shared.csproj" />
+    <ProjectReference Include="..\UMS.DAL\UMS.DAL.csproj" />
     <ProjectReference Include="..\UMS.Models\UMS.Models.csproj" />
   </ItemGroup>
 

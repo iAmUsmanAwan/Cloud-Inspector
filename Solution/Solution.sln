@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.10.34916.146
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PresentationLayer", "PresentationLayer", "{CE5FF6D9-9C5E-4AA8-B0D3-499BD3CFDE65}"
+	ProjectSection(SolutionItems) = preProject
+		appsettings.json = appsettings.json
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BusinessLogicLayer", "BusinessLogicLayer", "{362741DA-8054-4D47-BA3A-97967DB8ECAE}"
 EndProject
@@ -12,6 +15,9 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataLayer", "DataLayer", "{103E0EE5-8964-40CF-A783-B5855A54907F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataBase", "DataBase", "{12414FCA-51E8-4EAD-907B-EC40EAAB9208}"
+	ProjectSection(SolutionItems) = preProject
+		AppDbContext.cs = AppDbContext.cs
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CSV", "CSV", "{7B4F39F0-048C-47B5-ADE9-B112554CF0BB}"
 EndProject
@@ -47,6 +53,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{07071F
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UMS.BLL.Shared", "UMS.BLL.Shared\UMS.BLL.Shared.csproj", "{302E57B5-338D-4171-8F06-2DB963251DF9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UMS.BLL", "UMS.BLL\UMS.BLL.csproj", "{8510D6BB-168E-4B7B-90DB-4D66AA5D7066}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -77,6 +85,10 @@ Global
 		{302E57B5-338D-4171-8F06-2DB963251DF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{302E57B5-338D-4171-8F06-2DB963251DF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{302E57B5-338D-4171-8F06-2DB963251DF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8510D6BB-168E-4B7B-90DB-4D66AA5D7066}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8510D6BB-168E-4B7B-90DB-4D66AA5D7066}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8510D6BB-168E-4B7B-90DB-4D66AA5D7066}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8510D6BB-168E-4B7B-90DB-4D66AA5D7066}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -99,6 +111,7 @@ Global
 		{14E6FC6F-B3D9-45E1-8893-10FD6F9DABD5} = {362741DA-8054-4D47-BA3A-97967DB8ECAE}
 		{07071F20-D19D-44FD-8187-35B2F8F731F9} = {14E6FC6F-B3D9-45E1-8893-10FD6F9DABD5}
 		{302E57B5-338D-4171-8F06-2DB963251DF9} = {07071F20-D19D-44FD-8187-35B2F8F731F9}
+		{8510D6BB-168E-4B7B-90DB-4D66AA5D7066} = {14E6FC6F-B3D9-45E1-8893-10FD6F9DABD5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {792D9017-4B02-4936-8B15-BF7608EAAB3E}

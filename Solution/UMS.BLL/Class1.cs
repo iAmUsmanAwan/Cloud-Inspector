@@ -1,4 +1,4 @@
-﻿namespace UMS.BLL.Shared
+﻿namespace UMS.BLL
 {
     public class Class1
     {
