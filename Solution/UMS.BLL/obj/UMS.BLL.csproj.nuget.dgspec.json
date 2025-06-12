@@ -39,6 +39,9 @@
               "E:\\MY_STUFF\\web_pages_practice\\FullStackWebDev\\Cloud-Inspector\\Solution\\UMS.DAL\\UMS.DAL.csproj": {
                 "projectPath": "E:\\MY_STUFF\\web_pages_practice\\FullStackWebDev\\Cloud-Inspector\\Solution\\UMS.DAL\\UMS.DAL.csproj"
               },
+              "E:\\MY_STUFF\\web_pages_practice\\FullStackWebDev\\Cloud-Inspector\\Solution\\UMS.Models.Shared\\UMS.Models.Shared.csproj": {
+                "projectPath": "E:\\MY_STUFF\\web_pages_practice\\FullStackWebDev\\Cloud-Inspector\\Solution\\UMS.Models.Shared\\UMS.Models.Shared.csproj"
+              },
               "E:\\MY_STUFF\\web_pages_practice\\FullStackWebDev\\Cloud-Inspector\\Solution\\UMS.Models\\UMS.Models.csproj": {
                 "projectPath": "E:\\MY_STUFF\\web_pages_practice\\FullStackWebDev\\Cloud-Inspector\\Solution\\UMS.Models\\UMS.Models.csproj"
               }
@@ -63,15 +66,23 @@
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[9.0.5, )"
+              "version": "[8.0.13, )"
             },
-            "Microsoft.Extensions.Configuration": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[9.0.5, )"
+              "version": "[8.0.13, )"
             },
-            "Microsoft.Extensions.DependencyInjection": {
+            "Microsoft.EntityFrameworkCore.Relational": {
               "target": "Package",
-              "version": "[9.0.5, )"
+              "version": "[8.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.3, )"
             },
             "Pomelo.EntityFrameworkCore.MySql": {
               "target": "Package",
@@ -133,9 +144,6 @@
               "E:\\MY_STUFF\\web_pages_practice\\FullStackWebDev\\Cloud-Inspector\\Solution\\UMS.DAL.Shared\\UMS.DAL.Shared.csproj": {
                 "projectPath": "E:\\MY_STUFF\\web_pages_practice\\FullStackWebDev\\Cloud-Inspector\\Solution\\UMS.DAL.Shared\\UMS.DAL.Shared.csproj"
               },
-              "E:\\MY_STUFF\\web_pages_practice\\FullStackWebDev\\Cloud-Inspector\\Solution\\UMS.DAL\\UMS.DAL.csproj": {
-                "projectPath": "E:\\MY_STUFF\\web_pages_practice\\FullStackWebDev\\Cloud-Inspector\\Solution\\UMS.DAL\\UMS.DAL.csproj"
-              },
               "E:\\MY_STUFF\\web_pages_practice\\FullStackWebDev\\Cloud-Inspector\\Solution\\UMS.Models\\UMS.Models.csproj": {
                 "projectPath": "E:\\MY_STUFF\\web_pages_practice\\FullStackWebDev\\Cloud-Inspector\\Solution\\UMS.Models\\UMS.Models.csproj"
               }
@@ -160,15 +168,23 @@
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[9.0.5, )"
+              "version": "[8.0.13, )"
             },
-            "Microsoft.Extensions.Configuration": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[9.0.5, )"
+              "version": "[8.0.13, )"
             },
-            "Microsoft.Extensions.DependencyInjection": {
+            "Microsoft.EntityFrameworkCore.Relational": {
               "target": "Package",
-              "version": "[9.0.5, )"
+              "version": "[8.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.3, )"
             },
             "Pomelo.EntityFrameworkCore.MySql": {
               "target": "Package",
@@ -224,6 +240,9 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
+              "E:\\MY_STUFF\\web_pages_practice\\FullStackWebDev\\Cloud-Inspector\\Solution\\UMS.Models.Shared\\UMS.Models.Shared.csproj": {
+                "projectPath": "E:\\MY_STUFF\\web_pages_practice\\FullStackWebDev\\Cloud-Inspector\\Solution\\UMS.Models.Shared\\UMS.Models.Shared.csproj"
+              },
               "E:\\MY_STUFF\\web_pages_practice\\FullStackWebDev\\Cloud-Inspector\\Solution\\UMS.Models\\UMS.Models.csproj": {
                 "projectPath": "E:\\MY_STUFF\\web_pages_practice\\FullStackWebDev\\Cloud-Inspector\\Solution\\UMS.Models\\UMS.Models.csproj"
               }
@@ -248,15 +267,23 @@
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[9.0.5, )"
+              "version": "[8.0.13, )"
             },
-            "Microsoft.Extensions.Configuration": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[9.0.5, )"
+              "version": "[8.0.13, )"
             },
-            "Microsoft.Extensions.DependencyInjection": {
+            "Microsoft.EntityFrameworkCore.Relational": {
               "target": "Package",
-              "version": "[9.0.5, )"
+              "version": "[8.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.3, )"
             },
             "Pomelo.EntityFrameworkCore.MySql": {
               "target": "Package",
@@ -315,6 +342,9 @@
               "E:\\MY_STUFF\\web_pages_practice\\FullStackWebDev\\Cloud-Inspector\\Solution\\UMS.DAL.Shared\\UMS.DAL.Shared.csproj": {
                 "projectPath": "E:\\MY_STUFF\\web_pages_practice\\FullStackWebDev\\Cloud-Inspector\\Solution\\UMS.DAL.Shared\\UMS.DAL.Shared.csproj"
               },
+              "E:\\MY_STUFF\\web_pages_practice\\FullStackWebDev\\Cloud-Inspector\\Solution\\UMS.Models.Shared\\UMS.Models.Shared.csproj": {
+                "projectPath": "E:\\MY_STUFF\\web_pages_practice\\FullStackWebDev\\Cloud-Inspector\\Solution\\UMS.Models.Shared\\UMS.Models.Shared.csproj"
+              },
               "E:\\MY_STUFF\\web_pages_practice\\FullStackWebDev\\Cloud-Inspector\\Solution\\UMS.Models\\UMS.Models.csproj": {
                 "projectPath": "E:\\MY_STUFF\\web_pages_practice\\FullStackWebDev\\Cloud-Inspector\\Solution\\UMS.Models\\UMS.Models.csproj"
               }
@@ -339,15 +369,23 @@
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[9.0.5, )"
+              "version": "[8.0.13, )"
             },
-            "Microsoft.Extensions.Configuration": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[9.0.5, )"
+              "version": "[8.0.13, )"
             },
-            "Microsoft.Extensions.DependencyInjection": {
+            "Microsoft.EntityFrameworkCore.Relational": {
               "target": "Package",
-              "version": "[9.0.5, )"
+              "version": "[8.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.3, )"
             },
             "Pomelo.EntityFrameworkCore.MySql": {
               "target": "Package",
@@ -423,15 +461,23 @@
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[9.0.5, )"
+              "version": "[8.0.13, )"
             },
-            "Microsoft.Extensions.Configuration": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[9.0.5, )"
+              "version": "[8.0.13, )"
             },
-            "Microsoft.Extensions.DependencyInjection": {
+            "Microsoft.EntityFrameworkCore.Relational": {
               "target": "Package",
-              "version": "[9.0.5, )"
+              "version": "[8.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.3, )"
             },
             "Pomelo.EntityFrameworkCore.MySql": {
               "target": "Package",
@@ -511,15 +557,23 @@
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[9.0.5, )"
+              "version": "[8.0.13, )"
             },
-            "Microsoft.Extensions.Configuration": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[9.0.5, )"
+              "version": "[8.0.13, )"
             },
-            "Microsoft.Extensions.DependencyInjection": {
+            "Microsoft.EntityFrameworkCore.Relational": {
               "target": "Package",
-              "version": "[9.0.5, )"
+              "version": "[8.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.3, )"
             },
             "Pomelo.EntityFrameworkCore.MySql": {
               "target": "Package",
